@@ -37,6 +37,7 @@
           <a class="dropdown-item" href="#">Action</a>
           <a class="dropdown-item" href="#">Another action</a>
           <a class="dropdown-item" href="#">Something else here</a>
+          <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="#">Other things there</a>
           <a class="dropdown-item" href="#">Countdown!!!!</a>
         </div>
@@ -109,15 +110,15 @@
 </div>
 
 <div class="toolcard">
-  <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
-  Tooltip on top
-  </button>
+  <span class="d-inline-block" tabindex="0" data-toggle="tooltip" title="Disabled tooltip">
+  <button class="btn btn-primary" style="pointer-events: none;" type="button" disabled>Disabled button</button>
+</span>
   <div class="card" style="width: 18rem;">
   <img class="card-img-top" src="http://brassminus.ru/uploads/wallpapers/1074-800-x-600-wallpaper-images.jpg" alt="Card image cap">
   <div class="card-body">
     <h5 class="card-title">Card title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <a href="#">Go somewhere</a>
   </div>
 </div>
 </div>
@@ -127,5 +128,6 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
   </body>
 </html>
